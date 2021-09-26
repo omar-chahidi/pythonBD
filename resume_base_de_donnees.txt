@@ -52,4 +52,22 @@ Objectif:
         -  use datatest;
         - describe ninjatable;
         - select * from ninjatable; 
-    +
+    + utiliser pip pour ajouter des paquets de python. dans une cmd
+        - lancer "pip --version"
+        - pour avoir la dernière version de pip lancer "python -m pip install --upgrade pip"
+    + installer mysql connecter
+        - C:\WINDOWS\system32>pip install mysql-connecter-python
+                ERROR: Could not find a version that satisfies the requirement mysql-connecter-python (from versions: none)
+                ERROR: No matching distribution found for mysql-connecter-python
+        solution avec le site "https://dev.mysql.com/downloads/connector/python/"
+        télécharger "mysql-connector-python-8.0.26-windows-x86-64bit.msi"
+
+
+--------------------------------------------------------------------------------------------------------------------------
+pythonSql.py
+
+Objectif: 
+    Connexion à une BD sql avec "import mysql.connector" + CRUD
+
+    + connexion BD sql aec "import mysql.connector"
+    + afficher la liste de la table 
