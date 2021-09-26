@@ -7,16 +7,28 @@ Parmi les SGBD, nous pouvons trouver SQLite qui utilise un sous-ensemble de SQL.
 les données se trouvent sur le terminal du client et non sur un serveur distant, en font un outil apprécié 
 pour des applications personnelles ou encore dans l’embarqué.
 
-SQLite: 
-    -   est un système de base de données qui simplifie le stockage et l’utilisation de données relationnelles.
-    -   SQLite fait partie de la famille des SGBD dits « Relationnelles », car les données sont alors placées 
-        dans des tables et traitées comme des ensembles.
-    -   SQLite n'est pas fait lorsque les données dépassent 1 Go ou lorsqu'il y a plusieurs utilisateurs 
-        qui se connecte au serveur (un projet avec des connexion simultanée)
-    -   on a installer une version portable de SQLiteDatabaseBrowserPortable pour visualiser les tables
+===========================================================================================================================
+web :   
+    + création d'une base de données avec SQLite
+    + création d'une base de données avec SQL
 
-Exo
+===========================================================================================================================
+
+--------------------------------------------------------------------------------------------------------------------------
+1_bd.py
+
+Objectif: 
+    Création BD avec le natif python SQLite
+        -   est un système de base de données qui simplifie le stockage et l’utilisation de données relationnelles.
+        -   SQLite fait partie de la famille des SGBD dits « Relationnelles », car les données sont alors placées 
+            dans des tables et traitées comme des ensembles.
+        -   SQLite n'est pas fait lorsque les données dépassent 1 Go ou lorsqu'il y a plusieurs utilisateurs 
+            qui se connecte au serveur (un projet avec des connexion simultanée)
+        -   on a installer une version portable de SQLiteDatabaseBrowserPortable pour visualiser les tables
+
+
     + avec le logiciel SQLiteDatabaseBrowserPortable on va créer une BD. https://sqlitebrowser.org/
+        => ce logiciel va créer le fichier bas.db
     + créer une connexion à BD 
     + création à un curseur
     + faire du CRUD avec des requettes sql sécurisé
@@ -25,3 +37,14 @@ Exo
         - U : modifié (update)
         - D : supprimer (delete)
     + Géstion des erreurs au moment d'envoyer des requettes à la BD
+
+--------------------------------------------------------------------------------------------------------------------------
+data.sql
+
+Objectif: 
+    SQL: Création BD avec scripts SQL
+
+    + lancement de XAMPP CONTROL qui contient le serveur MySQL
+    + lancer http://localhost/phpmyadmin 
+    + créer des la BD "datatest" avec le script scql "data.sql" => exécuter le script via http://localhost/phpmyadmin
+    
