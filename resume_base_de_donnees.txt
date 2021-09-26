@@ -16,7 +16,7 @@ SQLite:
     -   on a installer une version portable de SQLiteDatabaseBrowserPortable pour visualiser les tables
 
 Exo
-    + avec le logiciel SQLiteDatabaseBrowserPortable on va créer une BD. 
+    + avec le logiciel SQLiteDatabaseBrowserPortable on va créer une BD. https://sqlitebrowser.org/
     + créer une connexion à BD 
     + création à un curseur
     + faire du CRUD avec des requettes sql sécurisé
