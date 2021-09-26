@@ -47,4 +47,8 @@ Objectif:
     + lancement de XAMPP CONTROL qui contient le serveur MySQL
     + lancer http://localhost/phpmyadmin 
     + créer des la BD "datatest" avec le script scql "data.sql" => exécuter le script via http://localhost/phpmyadmin
-    
+    + pour vérifier la création de BD 
+        - dans une fenêtre POWERSHELL je lance C:\xampp\mysql\bin\mysql.exe -u root
+        -  use datatest;
+        - describe ninjatable;
+        - select * from ninjatable; 
