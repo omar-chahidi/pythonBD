@@ -1,0 +1,27 @@
+À petite comme à grande échelle, les Bases De Données (BDD) s’imposent comme une forme efficace de stockage. 
+Il est alors plutôt aisé d’interagir avec celles-ci en utilisant un Système de Gestion de Base de Données 
+(SGBD), un logiciel spécialement conçu pour les gérer et les manipuler à l’aide d’un langage normalisé tel 
+que le Structured Query Language (SQL).
+
+Parmi les SGBD, nous pouvons trouver SQLite qui utilise un sous-ensemble de SQL. Sa légèreté et le fait que 
+les données se trouvent sur le terminal du client et non sur un serveur distant, en font un outil apprécié 
+pour des applications personnelles ou encore dans l’embarqué.
+
+SQLite: 
+    -   est un système de base de données qui simplifie le stockage et l’utilisation de données relationnelles.
+    -   SQLite fait partie de la famille des SGBD dits « Relationnelles », car les données sont alors placées 
+        dans des tables et traitées comme des ensembles.
+    -   SQLite n'est pas fait lorsque les données dépassent 1 Go ou lorsqu'il y a plusieurs utilisateurs 
+        qui se connecte au serveur (un projet avec des connexion simultanée)
+    -   on a installer une version portable de SQLiteDatabaseBrowserPortable pour visualiser les tables
+
+Exo
+    + avec le logiciel SQLiteDatabaseBrowserPortable on va créer une BD. 
+    + créer une connexion à BD 
+    + création à un curseur
+    + faire du CRUD avec des requettes sql sécurisé
+        - C : ajouter (create)
+        - R : lire (select)
+        - U : modifié (update)
+        - D : supprimer (delete)
+    + Géstion des erreurs au moment d'envoyer des requettes à la BD
