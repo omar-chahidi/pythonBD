@@ -70,4 +70,4 @@ Objectif:
     Connexion à une BD sql avec "import mysql.connector" + CRUD
 
     + connexion BD sql aec "import mysql.connector"
-    + afficher la liste de la table 
+    + faire du CRUD à une BD sql avec le langage PYTHON 
