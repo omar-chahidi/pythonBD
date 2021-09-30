@@ -71,3 +71,18 @@ Objectif:
 
     + connexion BD sql aec "import mysql.connector"
     + faire du CRUD à une BD sql avec le langage PYTHON 
+
+--------------------------------------------------------------------------------------------------------------------------
+utilisationMysql.py / roman_serie.sql
+
+Objectif: 
+    Connexion à une BD sql avec "import mysql.connector" + CRUD
+
+    + connexion BD sql aec "import mysql.connector"
+    + faire du CRUD à une BD sql avec le langage PYTHON 
+    Connexion à une BD sql avec "import mysql.connector" + CRUD
+        select * from roman; 
+        select * from roman where nom like '%robot%'; 
+        select nom from roman where nom like '%robot%';
+        select * from serie; 
+        select * from roman;
